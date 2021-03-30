@@ -1,0 +1,13 @@
+@import 'colors';
+
+.app_layout {
+  &__header {
+    background-color: $header-background;
+  }
+
+  &__content {
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: white;
+  }
+}

@@ -1,0 +1,10 @@
+@mixin loadingAnimation() {
+  animation: spin 1s ease-in-out infinite;
+  @content;
+  z-index: 1;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

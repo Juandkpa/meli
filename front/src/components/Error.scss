@@ -1,0 +1,22 @@
+@import 'colors';
+
+.error {
+  color: $font-color3;
+  text-align: center;
+  margin-top: 32px;
+  padding: 32px;
+
+  &__code {
+    font-size: 16em;
+  }
+  &__msg {
+    font-size: 2em;
+  }
+  &__home {
+    padding: 32px;
+    min-width: 200px;
+    width: 25%;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+}

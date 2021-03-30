@@ -1,0 +1,11 @@
+.cost {
+  font-size: 46px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  &__cents {
+    font-size: 23px;
+    align-self: flex-start;
+  }
+}

@@ -1,0 +1,28 @@
+@import 'colors';
+
+.item {
+  display: flex;
+  padding: 16px 0 16px 16px;
+  border-bottom: thin $page-background solid;
+
+  &__image {
+    flex: 2;
+    margin-right: 16px;
+
+    img {
+      width: 180px;
+      height: 180px;
+      border-radius: 4px;
+    }
+  }
+
+  &__location {
+    padding-top: 32px;
+    flex: 2;
+    font-size: 12px;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}

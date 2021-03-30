@@ -1,0 +1,21 @@
+@import 'colors';
+
+.header {
+  display: flex;
+  max-width: 1080px;
+  align-items: center;
+  margin: 0 auto;
+  background-color: white;
+  height: 56px;
+  background-color: $header-background;
+}
+
+.header__image {
+  width: 50px;
+  height: 35px;
+}
+
+.header > * + * {
+  margin-top: 0;
+  margin-left: 1.5em;
+}

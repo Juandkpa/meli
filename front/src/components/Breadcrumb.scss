@@ -1,0 +1,13 @@
+@import 'colors';
+
+.breadcrumb {
+  margin: 0;
+  padding: 16px 0 16px 0;
+  font-size: 14px;
+  color: $font-color3;
+  background-color: $page-background;
+
+  &__item {
+    display: inline-block;
+  }
+}

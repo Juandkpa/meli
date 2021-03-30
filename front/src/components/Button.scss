@@ -1,0 +1,12 @@
+@import 'colors';
+
+.button {
+  display: block;
+  color: $page-background;
+  background-color: $button-color;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+}

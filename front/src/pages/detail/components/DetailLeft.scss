@@ -1,0 +1,24 @@
+@import 'colors';
+
+.detail_left {
+  flex: 6;
+
+  &__image {
+    text-align: center;
+    img {
+      width: 680px;
+    }
+  }
+
+  &__title {
+    color: $font-color1;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 32px;
+  }
+
+  &__desc {
+    color: $font-color3;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,12 @@
+.search_bar {
+  display: flex;
+  width: 100%;
+
+  &__button {
+    border: none;
+    width: 46px;
+    height: 39px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+}
